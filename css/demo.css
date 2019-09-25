@@ -1,0 +1,16 @@
+h1{
+    color: #1e13a5;/*màu sắc*/
+    font-size: 50px;/*cỡ chữ*/
+    font-weight:400;/*độ đậm nhạt*/
+    font-family:helvetica;/*kiểu chữ*/
+    text-align: left;/*left,center,right,justify:căn lề*/
+    text-transform: uppercase;/*dạng chữ*/
+    text-decoration: underline;
+
+}
+body{
+    background-color: aquamarine;
+    background-image: url("http://thuthuatphanmem.vn/uploads/2018/05/18/hinh-nen-may-tinh-hd-la-phong-xanh-dep_024422517.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}

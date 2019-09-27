@@ -11,7 +11,7 @@ u{
 body{
     font-family: helvetica;
     font-size: 15px;
-    text-align:justify
+    text-align:justify;
 }
 h3{
     font-size: 13px;
@@ -26,4 +26,7 @@ b{
 h2{
     font-size: 13px;
     font-weight: 200;
+}
+i{
+    text-align:center;
 }

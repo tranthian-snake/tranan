@@ -1,16 +1,66 @@
 h1{
-    color: #1e13a5;/*màu sắc*/
-    font-size: 50px;/*cỡ chữ*/
-    font-weight:400;/*độ đậm nhạt*/
-    font-family:helvetica;/*kiểu chữ*/
-    text-align: left;/*left,center,right,justify:căn lề*/
-    text-transform: uppercase;/*dạng chữ*/
-    text-decoration: underline;
+    color: #008062;
+    font-size:50px;
+    font-weight: 400; /* 100 300 400 500 600 700 800 900 */
 
+    text-align: center;/* left center right justify */
+    text-transform: none;
+    /* uppercase lowercase capitalize none */
+    text-decoration: none;
+    /* underline line-through overline none */
 }
 body{
-    background-color: aquamarine;
-    background-image: url("http://thuthuatphanmem.vn/uploads/2018/05/18/hinh-nen-may-tinh-hd-la-phong-xanh-dep_024422517.jpg");
-    background-repeat: repeat-y;
+    /*background-color: #7FFFD4;*/
+    /*background-image: url("https://image.shutterstock.com/z/stock-vector-seamless-floral-ornament-on-background-wallpaper-pattern-690811537.jpg");*/
+    /*background-image: url("../images/aimZbRQHWoMnD4gr6RBnW6-480-80.jpg");*/
+    background-repeat: no-repeat;
+    /* repeat-x repeat-y no-repeat */
     background-size: cover;
+    font-family: 'Be Vietnam', sans-serif;
+}
+p{
+    line-height: 1.5;
+}
+li{
+    list-style:decimal;
+
+    /* decimal circle disc ... none */
+}
+#box1{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px; /* thuong ko dung` */
+    /*border: 1px solid red;!* solid dashed dotted *!*/
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    /* border:none */
+    padding: 20px;
+    /*padding-top:20px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-left: 20px;*/
+    box-shadow: 5px 10px 25px red;
+    border-radius: 10px;
+}
+#box2{
+    width: 600px;
+    float: left;
+    border-right: 1px solid green;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+#box3{
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
 }

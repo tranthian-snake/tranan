@@ -1,16 +1,27 @@
-div{
-    height:250px;
-    float: left;
-    box-shadow:  5px 10px 25px dimgrey;
-    padding-left: 50px;
-    border: black;
+#a{
+    width: 550px;
+    border: dimgrey 5px solid;
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
 }
-#2{
-    width: 100px;
+#b{
+    width: 200px;
     height:200px;
     float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
-#1{
-    width: 30px;
+#a1{
+    box-shadow-right: darkgrey;
+    float: bottom;
+    margin-bottom: 20px;
+}
+#c{
+    width: 200px;
     height: 50px;
+    float: right;
+    float: top;
+    padding-right: 20px;
 }

@@ -4,6 +4,8 @@
     border-style: solid;
     border-width: 15px;
     padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #b{
     width: 150px;
@@ -57,10 +59,16 @@
 #m{
     margin-top: 40px;
 }
+
+#x{
+    float: right;
+   }
 #o{
     margin-top: 40px;
 }
 #r{
+    margin-top: 40px;}
+#s{
     margin-top: 40px;
 }
 h3{

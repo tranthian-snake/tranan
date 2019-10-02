@@ -1,0 +1,41 @@
+
+.box{
+    width: 400px;
+    margin: 0 auto;
+}
+.form-control{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px;
+    min-height: 30px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 3px #ccc;
+}
+.radio, .checkbox{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: maroon;
+    /* hover trạng thái của hộp khi để vào vị trí hộp*/
+}
+.btn:focus {
+    /* focus: Trạng thái của phần tử khi nhấn chuột trái vào phần tử đó*/
+    outline: none;
+}
+.form-control:focus{
+    outline: none;
+}

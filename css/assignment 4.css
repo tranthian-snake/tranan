@@ -1,0 +1,119 @@
+.box{
+    width: 700px;
+    height: 570px;
+    margin: auto;
+    border: royalblue 1px solid;
+    box-shadow: 10px 10px 10px #486bff;
+    background-color: dodgerblue;
+}
+#x{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+}
+.boxtext{
+    width: 400px;
+    margin-left:300px;
+    margin-top: -380px;
+}
+.boxp{
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: white;
+    border: royalblue 1px solid;
+    box-shadow: 10px 10px 10px darkblue;
+}
+.box1{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: black 1px solid;
+    width: 100px;
+    height: 20px;
+}
+.box2{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: black 1px solid;
+    width: 250px;
+    height: 20px;
+}
+.boxa{
+    padding-top: 5px ;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.boxb{
+    margin-left: 145px;
+    font-size: 10px;
+    margin-top: -44px;
+    margin-bottom: 5px;
+}
+#a{
+font-size: 30px;
+    font-weight: 400;
+    color: deepskyblue;
+    margin-top: 10px;
+}
+.box3{
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: dodgerblue;
+    border: 1px solid darkblue;
+    color: white;
+    box-shadow: 2px 2px 2px darkblue ;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 12px;
+
+}
+.box3:hover{
+    background-color: darkblue;
+}
+#g{
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 100px;
+}
+#h{
+    width: 30px;
+    height: 30px;
+    margin-top: -25px;
+    margin-left: 290px;
+}
+#k{
+    border-radius: 20px;
+}
+#j{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: -55px;
+    margin-left: 40px;
+
+}
+.s{
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 130px;
+    border-radius: 100px;
+}
+#e{
+    border-radius: 100px;
+}
+#text{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 15px;
+    color: darkblue;
+    width: 220px;
+    padding-left: 40px;
+}
+#o{
+    margin-left: 40px;
+    margin-top: 2px;
+}

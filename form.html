@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css"/>
+</head>
+<body>
+<div class="box">
+    <form method="post" action="#">
+<!--        action: noi gui di-->
+        <input class="form-control" type="text" name="username" placeholder="Họ tên..."/><br/>
+        <input class="form-control" type="email" name="email" placeholder="email..."/><br/>
+        <input class="form-control" type="password" name="password" placeholder="password..."/><br/>
+        <input class="form-control" type="date" name="birthday" placeholder="birthday..."/><br/>
+        <input class="form-control" type="color" name="color"/><br/>
+<!--        <label><input type="radio" name="gender" value="nam"/>Nam</label>-->
+<!--        <label><input type="radio" name="gender" value="nu"/>Nu</label>-->
+<!--        <label><input type="radio" name="gender" value="khac"/>Khac</label><br/>-->
+<!--        <label><input type="checkbox" name="accept"/>Toi dong y voi dieu khoan</label><br/>-->
+<!--        <select name="city[]"multiple>    : chọn nhiều thành phần-->
+        <select name="city">
+            <option value="Hanoi">Hà Nội</option>
+            <option value="SG">Sài Gòn</option>
+            <option value="Cantho">Cần Thơ</option>
+        </select><br/>
+        <textarea name="introduce" placeholder="Giới thiệu bản thân..."></textarea><br/>
+        <div class="radio">
+            <label><input type="radio" name="gender" value="nam"/>Nam</label>
+            <label><input type="radio" name="gender" value="nu"/>Nữ</label>
+            <label><input type="radio" name="gender" value="khac"/>Khác</label><br/>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" name="accept"/>Tôi đồng ý với điều khoản</label><br/>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="reset">Reset</button>
+    </form>
+</div>
+</body>
+</html>

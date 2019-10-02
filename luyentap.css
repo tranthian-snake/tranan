@@ -1,0 +1,87 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+#box{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    float: left;
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 1px 5px #cccccc;
+}
+.card > .card-left{
+    float: left;
+    width: 200px;
+}
+#box .card .card-middle{
+    float: left;
+    width: 400px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.card .card-right{
+    float: right;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.card .card-right .sale-off{
+    position: absolute;
+    top: -10px;
+    right: -32px;
+    color: white;
+    background-color: red;
+    padding: 17px 25px 10px;
+    transform: rotate(45deg);
+}
+.card .card-middle h2{
+    font-size: 20px;
+    color:#e8b285;
+    font-weight: 600;
+    margin: 10px 0 0;
+}
+.card p{
+    margin: 8px 0;
+}
+.card .card-middle p span{
+    color:#e8b285;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.card-right p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-right .p-del{
+    text-decoration: line-through;
+    margin: 0 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card-right .btn{
+    color:#ffffff;
+    text-transform:uppercase;
+    text-decoration: none;
+    background-color: orange;
+    line-height: 1;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card2 .card-middle h2{
+    color: #FF8718;
+}
+.card2 .card-right .btn{
+    background-color: #FF8718;
+}
+#box1,#box2{
+    background-color: lightgreen;
+}

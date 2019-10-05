@@ -1,0 +1,137 @@
+*{
+    /*ảnh hưởng cho tất cả các thẻ*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+section,header,footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    /*1170px dùng cho toàn màn hình*/
+    margin: 0 auto;
+}
+.box1{
+    float: left;
+    width: 40%;
+}
+.box2{
+    float: right;
+    width: 30%;
+}
+.box1 li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.box1 li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.section1{
+    background-color: #53bd9d;
+}
+.box2 input{
+    float: left;
+    width: 160px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 7.5px;
+}
+.box2 .dropdown a{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+    line-height: 40px;
+}
+.content{
+    float: left;
+    width: 66.67%;
+}
+.sidebar{
+    float: right;
+    width: 33.33%;
+}
+.article{
+    float: left;
+    width: 100%;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.article > div{  /* ">" dùng cho thẻ ngay dưới article*/
+    float: left;
+    width:100%;
+}
+.article .art-info{
+    background-color: #eee;
+    border: 1px solid #d9d9d9;
+    line-height: 1.5;
+    /* " 1.5 * 14 sẽ ra số px của độ cao dòng"*/
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+.art-info span span{
+    color: #53bd9d;
+}
+.art-desc .thumb{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.art-desc .desc{
+    padding-left: 10px;
+    float: right;
+    width: 66.67%;
+}
+.art-read a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #53bd9d;
+    padding:  5px 10px;
+}
+.a1{
+    border-bottom:2px solid #d9d9d9 ;
+    font-weight: 600;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.a2{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 75%;
+    height: 200px;
+    border:2px solid #d9d9d9 ;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+.a3{
+    width: 73%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #bcbcbc;
+    box-shadow: 3px 3px 3px #bcbcbc;
+}
+
+
+

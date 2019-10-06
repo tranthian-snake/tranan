@@ -71,10 +71,10 @@ h2{
     color: #282828;
 }
 .intro1{
-    margin-left: 270px;
+    margin-left: 22%;
 }
 .intro2{
-    margin-left: 340px;
+    margin-left: 28%;
     margin-top: -20px;
 }
 h3{
@@ -91,7 +91,7 @@ span a:focus{
     color: orange;
 }
 .article2{
-    margin-left: 420px;
+    margin-left: 35%;
     margin-top: -352px;
     width: 30.5%;
     height:350px;
@@ -102,7 +102,7 @@ span a:focus{
 .article3{
     width: 30.5%;
     height: 350px;
-    margin-left: 820px;
+    margin-left: 69%;
     margin-top: -352px;
     border: white 1px solid;
     background-color: white;

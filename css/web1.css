@@ -147,7 +147,7 @@ span a:focus{
 .boxb{
     float: right;
     margin-right: 15px;
-    margin-top: -55px;
+    margin-top: -60px;
 }
 .buy{
     width: 50px;
@@ -160,4 +160,15 @@ span a:focus{
 }
 .see:hover{
     background-color: #646464;
+}
+p{
+    color: grey;
+    font-size: 14px;
+    margin-left: -40px;
+}
+.boxb1{
+    margin-top: -50px;
+}
+a{
+    font-size: 18px;
 }

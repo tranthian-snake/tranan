@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Layout</title>
@@ -10,9 +10,24 @@
     <section class="section1">
         <div class="container">
             <div class="box1">
-                <ul>
-                    <li><a href="#">Home</a> </li>
-                    <li><a href="#">About us</a> </li>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Home</a>
+                            <ul class="submenu">
+                                <li>Sub menu 1</li>
+                                <li>Sub menu 2</li>
+                                <li>Sub menu 3</li>
+                                <li>Sub menu 4</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                            <ul class="submenu">
+                                <li>About 1</li>
+                                <li>About 2</li>
+                                <li>About 3</li>
+                                <li>About 4</li>
+                            </ul>
                     <li><a href="#">Contact us</a> </li>
                     <li><a href="#">Dropdown</a> </li>
 
@@ -43,7 +58,7 @@
     <section>
         <div class="container">
             <div class="content">
-                <div class="article">
+                <div class="article" id="art1">
                     <div class="art-title">
                         <h2> Article with everything in post</h2>
                     </div>
@@ -66,6 +81,9 @@
                 </div>
             </div>
             <div class="sidebar">
+                <button type="button" class="hidelogo">Hide</button>
+                <button type="button" class="showlogo">Show</button>
+
                 <div class="a1">
                     <p>FREE EMAIL UPDATES</p>
                 </div>
@@ -80,6 +98,155 @@
         </div>
 
     </section>
+<script type="text/javascript">
+    var x;
+    x=10;
+    var y="hello world"
+    console.log(x);
+    console.log(y);
+    x="hahahahahahah";
+    var z=100;
+    y=z+10;
+    console.log(y);
+    y=z+10+"hahahah"
+    console.log(y);
+
+    var arr=[];
+    arr[0]=1;
+    arr[1]="xinchao";
+    arr[2]=[1,2,3,4,5];
+    console.log(arr);
+    if(arr[1]>arr[0]){
+        console.log(arr[1]);
+    }else {
+        console.log(arr[0]);
+    }
+    for(i=0;i<3;i++){
+        console.log(arr[i]);
+    }
+    ten_ham(1001);
+    function ten_ham(e) {
+        console.log(e);
+    }
+    //alert("chua du muoi tam tuoi ...");
+    // do {
+    //     kq = prompt("nhap ten cua ban...");
+    //     console.log(kq);
+    // }
+    // while (kq=null || kq=="");
+
+
+
+
+    // do {
+    //     tuoi = prompt("nhap tuoi...");
+    //     tuoi = parseInt(tuoi);
+    // }
+    // while (isNaN(tuoi));
+
+
+
+    // kq=parseInt(100*Math.random());
+    // console.log(kq);
+    // for (i=0;i<5;i++){
+    //     dayso=prompt("nhap so");
+    //     dayso=parseInt(dayso);
+    //     if(dayso==kq){
+    //         alert("Ban da trung thuong");
+    //         break;
+    //     }
+    //     else{
+    //         alert("chuc ban may man lan sau");
+    //     }
+    // }
+
+    setTimeout(function () {
+        console.log("day la thong bao sau 2 giay");
+    },2000);
+    console.log("thong bao so 2");
+    console.log("thong bao so 2");
+    setTimeout(function () {
+        console.log("day la thong bao sau 1 giay");
+    })
+    console.log("thong bao so 2");
+    console.log("thong bao so 2");
+    console.log("thong bao so 2");
+    console.log("thong bao so 2");
+    console.log("thong bao so 2");
+
+
+
+
+
+
+
+    // min=10;
+    // sec=0;
+    // it=setInterval(function () {
+    //     if(sec==0){
+    //         sec=59;
+    //         min--;
+    //     }
+    //     min_show=min;
+    //     if(min<10){
+    //         min_show="0"+min;
+    //     }
+    //     sec_show=sec;
+    //     if(sec<10){
+    //         sec_show="0"+sec;
+    //     }
+    //     console.log(min+":"+sec_show);
+    //     sec--;
+    //     if(min==0 && sec==0){
+    //         console.log("00:00");
+    //         clearInterval(it);
+    //         // clearInterval() :loai bo chuc nang chay cua setInterval()
+    //     }
+    // },25);
+
+
+
+
+
+
+<!--    ng=5;-->
+<!--    ph=0;-->
+<!--    h=24;-->
+<!--    it=setInterval(function () {-->
+<!--        if(h==0){-->
+<!--            h=23;-->
+<!--            ng&#45;&#45;;-->
+<!--        }-->
+<!--        if(ph==0){-->
+<!--            ph=59;-->
+<!--            h&#45;&#45;;-->
+<!--        }-->
+
+<!--        ng_show=ng;-->
+<!--        if(ng<10){-->
+<!--            ng_show="0"+ng;-->
+<!--        }-->
+<!--        h_show=h;-->
+<!--        if(h<10){-->
+<!--            h_show="0"+h;-->
+<!--        }-->
+<!--        ph_show=ph;-->
+<!--        if(ph<10){-->
+<!--            ph_show="0"+ph;-->
+<!--        }-->
+<!--        console.log(ng_show+":"+h_show+":"+ph_show);-->
+<!--        ph&#45;&#45;;-->
+<!--        if(ng==0 && h==0 && ph==0){-->
+<!--            console.log("00:00:00");-->
+<!--            clearInterval(it);-->
+<!--        }-->
+<!--    },1);-->
+</script>
+
+<script type="text/javascript" src="js/jquery.js">
+</script>
+<script type="text/javascript" src="js/demo.js">
+    </script>
 
 </body>
 </html>

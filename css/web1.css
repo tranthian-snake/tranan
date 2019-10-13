@@ -1,7 +1,8 @@
 
 body{
     font-family: 'Be Vietnam', sans-serif;
-    background-color: rgba(217, 217, 217, 0.45);
+    background-image: url("");
+
 }
 section,header,footer {
     float: left;
@@ -85,8 +86,10 @@ h3{
 }
 span a{
     font-weight: 500;
-    color: black;
+    color: orangered;
     text-decoration: none;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
 }
 span a:focus{
     color: orange;
@@ -137,14 +140,20 @@ span a:focus{
 .see{
     width: 100px;
     height: 30px;
-    border: 1px solid #ff9c29;
-    box-shadow: 2px 2px 2px #ffb23d;
-    background-color: orange;
+    border: 1px solid #575757;
+    box-shadow: 3px 3px 3px rgba(23, 23, 23, 0.91);
+    background-color: #575757;
     border-radius: 5px;
     color: white;
 }
 .see:hover{
-    background-color: rgb(212, 110, 40);
+    background-color: #343434;
+}
+.see:focus{
+    color: red;
+}
+.buy:focus{
+    color: red;
 }
 .boxb{
     float: right;
@@ -154,17 +163,17 @@ span a:focus{
 .buy{
     width: 50px;
     height: 50px;
-    border:  1px solid grey;
-    box-shadow: 2px 2px 2px #9e9e9e;
-    background-color: #979797;
+    border:  3px solid rgba(255, 165, 0, 0.73);
+    box-shadow: 2px 2px 2px orangered;
+    background-color: orangered;
     border-radius: 100px;
     color: white;
 }
 .buy:hover{
-    background-color: #646464;
+    background-color: #da8c00;
 }
 p{
-    color: grey;
+    color: orangered;
     font-size: 14px;
     margin-left: -50px;
 }

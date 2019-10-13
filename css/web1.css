@@ -8,9 +8,6 @@ section,header,footer {
     float: left;
     width: 100%;
 }
-img{
-    max-width: 100%;
-}
 .container{
     width:1170px;
     margin: 0 auto;

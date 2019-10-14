@@ -274,7 +274,8 @@ body{
     text-align: center;
     top:-11px;
     right: -34px;
-    transform:rotate(45deg) ;
+
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/20160809/pngtree-Pattern-Check-Wallpaper-Design-photo-615052.jpg");
 }
 #v3{
     width: 200px;

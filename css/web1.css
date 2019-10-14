@@ -1,7 +1,6 @@
 
 body{
     font-family: 'Be Vietnam', sans-serif;
-    background-image: url("");
 
 }
 section,header,footer {
@@ -16,20 +15,20 @@ section,header,footer {
     float: left;
     width: 15%;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: -40px;
 }
 .box2 {
     float: right;
     width: 53%;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 .box2 li{
     float: right;
-    margin-right: 30px;
+    margin-right: 20px;
     list-style: none;
 }
 .box2 li a {
-    color: #676767;
+    color: rgba(255, 69, 0, 0.77);
     font-size: 16px;
     text-decoration: none;
     line-height: 40px;
@@ -41,11 +40,12 @@ section,header,footer {
     height: 150px;
     width: 100%;
     background-color: white;
+    margin-top: 70px;
 }
 .box-search{
     width: 32%;
     float: left;
-    margin-top: -45px;
+    margin-top: 40px;
 }
 .search{
     width: 250px;
@@ -65,19 +65,19 @@ b{
      font-size: 32px;
  }
 h2{
-    font-size: 35px;
-    font-family: none;
-    color: #282828;
+    font-size: 50px;
+    color: #00a500;
+    font-family: 'Playball', cursive;
 }
 .intro1{
-    margin-left: 20%;
+    margin-left: 18%;
 }
 .intro2{
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: -20px;
 }
 h3{
-    color: grey;
+    color: rgb(0, 197, 0);
     font-size: 23px;
     font-family: none;
 }
@@ -189,7 +189,6 @@ a{
     float: bottom;
     height: 200px;
     background-image: url("https://luxury-inside.vn/data/uploads/2019/08/banh-trung-thu-mon-an-khong-danh-cho-5-nhom-nguoi-1.jpg");
-    margin-bottom: 10px;
 
 }
 #w{

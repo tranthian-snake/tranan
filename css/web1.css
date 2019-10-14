@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Be Vietnam', sans-serif;
+    background-color: rgba(255, 113, 212, 0.53);
 
 }
 section,header,footer {
@@ -40,7 +41,6 @@ section,header,footer {
     height: 150px;
     width: 100%;
     background-color: white;
-    margin-top: 70px;
 }
 .box-search{
     width: 32%;

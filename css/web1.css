@@ -20,22 +20,24 @@ section,header,footer {
 }
 .box2 {
     float: right;
-    width: 53%;
+    width: 65%;
     margin-top: 30px;
+    margin-right: -30px;
 }
 .box2 li{
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
     list-style: none;
 }
 .box2 li a {
-    color: rgba(255, 69, 0, 0.77);
-    font-size: 16px;
+    color: orange;
+    font-weight: 600;
+    font-size: 20px;
     text-decoration: none;
     line-height: 40px;
 }
 .box2 li a:focus{
-    color: red;
+    color: grey;
 }
 .section1{
     height: 150px;
@@ -43,7 +45,7 @@ section,header,footer {
     background-color: white;
 }
 .box-search{
-    width: 32%;
+    width: 20%;
     float: left;
     margin-top: 40px;
 }

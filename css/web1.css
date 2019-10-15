@@ -229,3 +229,22 @@ u{
     font-size: 20px;
     font-family: 'Playball', cursive;
 }
+
+.menu > li.active > a{
+    color:red;
+}
+.submenu{
+    position: absolute;
+    width: 7.5%;
+    top:90px;
+    left: 700px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+}
+.submenu li{
+    float:left;
+    width: 100%;
+    list-style: none;
+}
+

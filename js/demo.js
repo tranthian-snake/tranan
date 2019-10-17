@@ -67,3 +67,64 @@ m.bind("mouseleave",function () {
 });
 
 
+
+$.ajax({
+    url:"data/data.json",
+    method:"GET",
+    success:function (result) {
+        var arts=result.articles;
+for (i=0;i<arts.length;i++){
+    var xyz = '<div class="article">\n' +
+        '                    <div class="art-title">\n' +
+        '                        <h2>'+arts[i].title+'</h2>\n' +
+        '                    </div>\n' +
+        '                    <div class="art-info">\n' +
+        '                        <span>Posted by Admin at <span>'+arts[i].posted_at+'</span></span>\n' +
+        '                    </div>\n' +
+        '                    <div class="art-desc">\n' +
+        '                        <div class="thumb">\n' +
+        '                            <img src="'+arts[i].image+'"/>\n' +
+        '                        </div>\n' +
+        '                        <div class="desc">\n' +
+        '                            <span>'+arts[i].desc+'</span>\n' +
+        '                        </div>\n' +
+        '                    </div>\n' +
+        '                    <div class="art-read">\n' +
+        '                        <a href="#">Read More</a>\n' +
+        '                    </div>\n' +
+        '                </div>';
+    var content = $(".content");
+    content.append(xyz);
+}
+}
+});
+
+
+
+$.ajax({
+    url: "data/weather.json",
+    method: "GET",
+    success: function (result) {
+        var city = result.name;
+        var country=result.sys.country;
+        var temp=result.main.temp;
+        var pressure= result.main.pressure;
+        var humidity=result.main.humidity;
+        var speed=result.wind.speed;
+        var weather=result.weather;
+        var cloud;
+        for (i=0;i<weather.length;i++){
+            cloud=weather[i].main;
+        }
+        $("#city").text(city+"-"+country);
+        $("#temp").text(city+"K");
+        $("#pressure").text(pressure);
+        $("#hump").text(humidity);
+        $("#speed").text(speed);
+        $("#cloud").text(cloud);
+
+    }
+});
+
+
+

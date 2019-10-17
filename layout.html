@@ -80,9 +80,6 @@
                     </div>
                 </div>
             </div>
-            <div class="sidebar">
-                <button type="button" class="hidelogo">Hide</button>
-                <button type="button" class="showlogo">Show</button>
 
                 <div class="a1">
                     <p>FREE EMAIL UPDATES</p>
@@ -95,114 +92,134 @@
                     </form>
                 </div>
             </div>
-        </div>
 
     </section>
-<script type="text/javascript">
-    var x;
-    x=10;
-    var y="hello world"
-    console.log(x);
-    console.log(y);
-    x="hahahahahahah";
-    var z=100;
-    y=z+10;
-    console.log(y);
-    y=z+10+"hahahah"
-    console.log(y);
+    <section>
+        <div class="container">
+            <div class="content">
 
-    var arr=[];
-    arr[0]=1;
-    arr[1]="xinchao";
-    arr[2]=[1,2,3,4,5];
-    console.log(arr);
-    if(arr[1]>arr[0]){
-        console.log(arr[1]);
-    }else {
-        console.log(arr[0]);
-    }
-    for(i=0;i<3;i++){
-        console.log(arr[i]);
-    }
-    ten_ham(1001);
-    function ten_ham(e) {
-        console.log(e);
-    }
-    //alert("chua du muoi tam tuoi ...");
-    // do {
-    //     kq = prompt("nhap ten cua ban...");
-    //     console.log(kq);
-    // }
-    // while (kq=null || kq=="");
+            </div>
+            <div class="sidebar">
+                <button type="button" class="hidelogo">Hide</button>
+                <button type="button" class="showlogo">Show</button>
+                <h3 id="city"></h3>
+                <h3 id="temp"></h3>
+                <h3 id="pressure"></h3>
+                <h3 id="hump"></h3>
+                <h3 id="speed"></h3>
+                <h3 id="cloud"></h3>
+            </div>
+        </div>
+    </section>
 
 
 
 
-    // do {
-    //     tuoi = prompt("nhap tuoi...");
-    //     tuoi = parseInt(tuoi);
-    // }
-    // while (isNaN(tuoi));
+<!--<script type="text/javascript">-->
+<!--    var x;-->
+<!--    x=10;-->
+<!--    var y="hello world"-->
+<!--    console.log(x);-->
+<!--    console.log(y);-->
+<!--    x="hahahahahahah";-->
+<!--    var z=100;-->
+<!--    y=z+10;-->
+<!--    console.log(y);-->
+<!--    y=z+10+"hahahah"-->
+<!--    console.log(y);-->
 
-
-
-    // kq=parseInt(100*Math.random());
-    // console.log(kq);
-    // for (i=0;i<5;i++){
-    //     dayso=prompt("nhap so");
-    //     dayso=parseInt(dayso);
-    //     if(dayso==kq){
-    //         alert("Ban da trung thuong");
-    //         break;
-    //     }
-    //     else{
-    //         alert("chuc ban may man lan sau");
-    //     }
-    // }
-
-    setTimeout(function () {
-        console.log("day la thong bao sau 2 giay");
-    },2000);
-    console.log("thong bao so 2");
-    console.log("thong bao so 2");
-    setTimeout(function () {
-        console.log("day la thong bao sau 1 giay");
-    })
-    console.log("thong bao so 2");
-    console.log("thong bao so 2");
-    console.log("thong bao so 2");
-    console.log("thong bao so 2");
-    console.log("thong bao so 2");
-
-
-
+<!--    var arr=[];-->
+<!--    arr[0]=1;-->
+<!--    arr[1]="xinchao";-->
+<!--    arr[2]=[1,2,3,4,5];-->
+<!--    console.log(arr);-->
+<!--    if(arr[1]>arr[0]){-->
+<!--        console.log(arr[1]);-->
+<!--    }else {-->
+<!--        console.log(arr[0]);-->
+<!--    }-->
+<!--    for(i=0;i<3;i++){-->
+<!--        console.log(arr[i]);-->
+<!--    }-->
+<!--    ten_ham(1001);-->
+<!--    function ten_ham(e) {-->
+<!--        console.log(e);-->
+<!--    }-->
+<!--    //alert("chua du muoi tam tuoi ...");-->
+<!--    // do {-->
+<!--    //     kq = prompt("nhap ten cua ban...");-->
+<!--    //     console.log(kq);-->
+<!--    // }-->
+<!--    // while (kq=null || kq=="");-->
 
 
 
 
-    // min=10;
-    // sec=0;
-    // it=setInterval(function () {
-    //     if(sec==0){
-    //         sec=59;
-    //         min--;
-    //     }
-    //     min_show=min;
-    //     if(min<10){
-    //         min_show="0"+min;
-    //     }
-    //     sec_show=sec;
-    //     if(sec<10){
-    //         sec_show="0"+sec;
-    //     }
-    //     console.log(min+":"+sec_show);
-    //     sec--;
-    //     if(min==0 && sec==0){
-    //         console.log("00:00");
-    //         clearInterval(it);
-    //         // clearInterval() :loai bo chuc nang chay cua setInterval()
-    //     }
-    // },25);
+<!--    // do {-->
+<!--    //     tuoi = prompt("nhap tuoi...");-->
+<!--    //     tuoi = parseInt(tuoi);-->
+<!--    // }-->
+<!--    // while (isNaN(tuoi));-->
+
+
+
+<!--    // kq=parseInt(100*Math.random());-->
+<!--    // console.log(kq);-->
+<!--    // for (i=0;i<5;i++){-->
+<!--    //     dayso=prompt("nhap so");-->
+<!--    //     dayso=parseInt(dayso);-->
+<!--    //     if(dayso==kq){-->
+<!--    //         alert("Ban da trung thuong");-->
+<!--    //         break;-->
+<!--    //     }-->
+<!--    //     else{-->
+<!--    //         alert("chuc ban may man lan sau");-->
+<!--    //     }-->
+<!--    // }-->
+
+<!--    setTimeout(function () {-->
+<!--        console.log("day la thong bao sau 2 giay");-->
+<!--    },2000);-->
+<!--    console.log("thong bao so 2");-->
+<!--    console.log("thong bao so 2");-->
+<!--    setTimeout(function () {-->
+<!--        console.log("day la thong bao sau 1 giay");-->
+<!--    })-->
+<!--    console.log("thong bao so 2");-->
+<!--    console.log("thong bao so 2");-->
+<!--    console.log("thong bao so 2");-->
+<!--    console.log("thong bao so 2");-->
+<!--    console.log("thong bao so 2");-->
+
+
+
+
+
+
+
+<!--    // min=10;-->
+<!--    // sec=0;-->
+<!--    // it=setInterval(function () {-->
+<!--    //     if(sec==0){-->
+<!--    //         sec=59;-->
+<!--    //         min&#45;&#45;;-->
+<!--    //     }-->
+<!--    //     min_show=min;-->
+<!--    //     if(min<10){-->
+<!--    //         min_show="0"+min;-->
+<!--    //     }-->
+<!--    //     sec_show=sec;-->
+<!--    //     if(sec<10){-->
+<!--    //         sec_show="0"+sec;-->
+<!--    //     }-->
+<!--    //     console.log(min+":"+sec_show);-->
+<!--    //     sec&#45;&#45;;-->
+<!--    //     if(min==0 && sec==0){-->
+<!--    //         console.log("00:00");-->
+<!--    //         clearInterval(it);-->
+<!--    //         // clearInterval() :loai bo chuc nang chay cua setInterval()-->
+<!--    //     }-->
+<!--    // },25);-->
 
 
 
@@ -241,12 +258,12 @@
 <!--            clearInterval(it);-->
 <!--        }-->
 <!--    },1);-->
-</script>
+    <!--   </script>   -->
 
-<script type="text/javascript" src="js/jquery.js">
-</script>
-<script type="text/javascript" src="js/demo.js">
+    <script type="text/javascript" src="js/jquery.js">
     </script>
+    <script type="text/javascript" src="js/demo.js">
+        </script>
 
-</body>
-</html>
+    </body>
+    </html>

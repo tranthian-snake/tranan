@@ -1,0 +1,31 @@
+
+{
+  "message" : "Lấy dữ liệu thành công",
+  "articles": [
+    {
+    "title": "Article with everything in post",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFcUAFXgXazDLTrJ5rV9dQIxMR_MJZTM4tVr5_7rOC9SV3MJGlg",
+      "desc": "Lamborghini Aventador SVJ hiện là siêu xe mạnh mẽ nhất của Lamborghini từng sản sinh. Được giới thiệu lần đầu vào tháng 08/2018, SVJ chỉ sản xuất giới hạn 963 chiếc (1 trong số đó đã về Việt Nam)...",
+      "posted_at": "00:31"
+  },
+    {
+      "title": "Article with everything in post",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFcUAFXgXazDLTrJ5rV9dQIxMR_MJZTM4tVr5_7rOC9SV3MJGlg",
+      "desc": "Lamborghini Aventador SVJ hiện là siêu xe mạnh mẽ nhất của Lamborghini từng sản sinh. Được giới thiệu lần đầu vào tháng 08/2018, SVJ chỉ sản xuất giới hạn 963 chiếc (1 trong số đó đã về Việt Nam)...",
+      "posted_at": "00:31"
+    },
+    {
+      "title": "Article with everything in post",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFcUAFXgXazDLTrJ5rV9dQIxMR_MJZTM4tVr5_7rOC9SV3MJGlg",
+      "desc": "Lamborghini Aventador SVJ hiện là siêu xe mạnh mẽ nhất của Lamborghini từng sản sinh. Được giới thiệu lần đầu vào tháng 08/2018, SVJ chỉ sản xuất giới hạn 963 chiếc (1 trong số đó đã về Việt Nam)...",
+      "posted_at": "00:31"
+    },
+    {
+      "title": "Article with everything in post",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFcUAFXgXazDLTrJ5rV9dQIxMR_MJZTM4tVr5_7rOC9SV3MJGlg",
+      "desc": "Lamborghini Aventador SVJ hiện là siêu xe mạnh mẽ nhất của Lamborghini từng sản sinh. Được giới thiệu lần đầu vào tháng 08/2018, SVJ chỉ sản xuất giới hạn 963 chiếc (1 trong số đó đã về Việt Nam)...",
+      "posted_at": "00:31"
+    }
+
+  ]
+}

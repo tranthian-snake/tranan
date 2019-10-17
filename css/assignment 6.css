@@ -1,0 +1,50 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+#boxmax-2{
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    background-color: #76f5f2;
+    border-radius: 5px;
+    border: 1px solid #76f5f2;
+    box-shadow: grey 5px 5px 5px;
+}
+#text{
+    float: left;
+    color: white;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+#image{
+    float: right;
+    margin-top: 20px;
+}
+.country{
+    font-size: 30px;
+}
+.date{
+    font-size: 30px;
+}
+#deg{
+    font-size: 110px;
+    font-weight: 200;
+    margin-left: -20px;
+}
+#img-2{
+    width: 70px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+    color: white;
+    font-size: 10px;
+}
+#set{
+    margin-left: 5px;
+}
+#img2{
+    margin-left: 20px;
+    border-bottom: white 2px solid;
+}

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 13px;
+    color: #434343;
+}
+img{
+    max-width: 100%;
+}
+section,header,footer{
+    float: left;
+    width: 100%;
+}
+.section1{
+    height: 70px;
+    background-color: white;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#icon_top_left{
+    float: left;
+    width: 11%;
+}
+#menu_icon{
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-top: 5px;
+}
+#YouTube{
+    float: right;
+    margin-top: -10px;
+}
+#icon_top_center{
+    width: 60%;
+    margin: auto;
+}
+#box-search{
+    width: 626px;
+    height: 30px;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 10px;
+}
+#icon_search{
+    width: 55px;
+    height: 29px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    float: right;
+    border: 1px solid #c7c7c7;
+}
+#icon_search:hover{
+    background-color: #cccccc;
+}
+#icon_search:focus{
+    background-color: #c0c0c0;
+}
+#img_icon_search{
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.search {
+    width: 569px;
+    height: 28px;
+    border-radius: 2px;
+    border: 1px solid #f4f4f4;
+    float: left;
+}
+#icon_top_right{
+    width: 15%;
+    float: right;
+    margin-right: -10px;
+    margin-top: -30px;
+}
+#video_camera{
+    margin-right: 15px;
+}
+#icon_menu_1{
+    margin-right: 15px;
+}
+#icon_chuong{
+    margin-right: 15px;
+}
+#log_in{
+}
+#section2{
+    background-color: white;
+    width: 18%;
+}
+.menu{
+}
+.menu_1{
+    border-bottom: 1px solid #a3a3a3;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h5{
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f7f7f;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.menu_img{
+    height: 40px;
+    margin-left: 20px;
+}
+.menu_img:hover{
+    background-color: #e8e8e8;
+}
+.menu_text{
+    margin-left: 10px;
+}
+.icon_menu_img{
+    margin-top: 5px;
+}
+.menu_2{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+a{
+    font-size: 12px;
+    color: #747474;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 5px;
+}
+p{
+    font-size: 12px;
+    color: #747474;
+    margin-top: 20px;
+}
+.section3{
+    width: 82%;
+    background-color: rgba(219, 219, 219, 0.36);
+    height: 500px;
+}
+#information{}
+#information_1{
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+#filter{
+    width: 95%;
+    height: 30px;
+    border-bottom: #cacaca 1px solid;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#filter_icon{}
+#filter_text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f7f7f;
+}
+#information_2{
+    width: 35%;
+    background-color: rgba(200, 200, 200, 0.27);
+    height: 300px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+#son_tung_music{
+    width: 64%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#img_son_tung{
+    border-radius: 100px;
+    float: left;
+}
+#text_son_tung{
+    float: right;
+    margin-left: 40px;
+}
+#son_tung{
+    font-size: 17px;
+}
+#son_tung_m{
+    color: #919191;
+    font-size: 15px;
+}
+#subscribe{
+    width: 90px;
+    height: 35px;
+    color: white;
+    font-size: 14px;
+    background-color: #e20000;
+    border: 1px solid #e20000;
+}

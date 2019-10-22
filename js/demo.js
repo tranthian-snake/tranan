@@ -102,29 +102,86 @@ for (i=0;i<arts.length;i++){
 
 
 $.ajax({
-    url: "data/weather.json",
+    url: "http://api.openweathermap.org/data/2.5/weather",
     method: "GET",
+    data: {
+        q:"hanoi,vietnam",
+        appid:"09a71427c59d38d6a34f89b47d75975c",
+        units:"metric"
+    },
     success: function (result) {
         var city = result.name;
-        var country=result.sys.country;
-        var temp=result.main.temp;
-        var pressure= result.main.pressure;
-        var humidity=result.main.humidity;
-        var speed=result.wind.speed;
-        var weather=result.weather;
+        var country = result.sys.country;
+        var temp = result.main.temp;
+        var pressure = result.main.pressure;
+        var humidity = result.main.humidity;
+        var speed=  result.wind.speed;
+        var weather = result.weather;
         var cloud;
         for (i=0;i<weather.length;i++){
-            cloud=weather[i].main;
+            cloud = weather[i].main;
         }
         $("#city").text(city+"-"+country);
-        $("#temp").text(city+"K");
+        $("#temp").text(temp+"K");
         $("#pressure").text(pressure);
         $("#hump").text(humidity);
         $("#speed").text(speed);
         $("#cloud").text(cloud);
-
     }
 });
 
+$("#city_select").bind("change",function () {
+    var value = $(this).val();
 
+    //AJAX
+    $.ajax({
+        url: "http://api.openweathermap.org/data/2.5/weather",
+        method: "GET",
+        data: {
+            q:value,
+            appid:"bb6527e4e54d243158f1df8944de4682",
+            units:"metric"
+        },
+        success: function (result) {
+            var city = result.name;
+            var country = result.sys.country;
+            var temp = result.main.temp;
+            var pressure = result.main.pressure;
+            var humidity = result.main.humidity;
+            var speed=  result.wind.speed;
+            var weather = result.weather;
+            var cloud;
+            for (i=0;i<weather.length;i++){
+                cloud = weather[i].main;
+            }
+            $("#city").text(city+"-"+country);
+            $("#temp").text(temp+"K");
+            $("#pressure").text(pressure);
+            $("#hump").text(humidity);
+            $("#speed").text(speed);
+            $("#cloud").text(cloud);
+        }
+    });
+});
+
+
+$.ajax({
+    url: "http://api.openweathermap.org/data/2.5/weather",
+    method: "GET",
+    data: {
+        q: "hanoi,vietnam",
+        appid: "bb6527e4e54d243158f1df8944de4682",
+        units: "metric"
+    },
+    success: function (result) {
+        var list=result.list;
+        for(i=0;i<list;i++){
+            var temp=list[i].main.temp;
+            var txt=list[i].dt_txt;
+            var html='<p>'+txt+'</p><p>'+temp+'</p>';
+            $(".body").append(html)
+        }
+
+    }
+});
 
